@@ -1,18 +1,24 @@
-p {
-    display: block;
-    position: sticky;
-    margin-top: 100px;
-    top: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cikk {
+  border: 1px solid blue;
 }
 
 div {
     border: 1px solid black;
     width: 75%;
     margin: auto;
-    margin-top: 75px;
+    display: flex;
+    gap: 10px;
 }
 
-body {
-    border: 2px solid red;
-    height: 2000px;
+.cikk {
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
+
